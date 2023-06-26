@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(213, 214, 255);
+background: linear-gradient(to bottom right, rgb(229, 229, 255), rgb(29, 20, 21));
 }
 
 .navbar-item img {
@@ -17,7 +17,7 @@ body {
 }
 
 .notification {
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(44, 39, 48);
     color: #fff;
 }
 
@@ -25,7 +25,7 @@ body {
     margin-bottom: 2rem;
 }
 #search-button{
-    background-color: rgb(135, 136, 165);
+    background-color: rgb(57, 44, 61);
     color: #fff;
     font-size: 14px;
 }
@@ -61,4 +61,5 @@ body {
     .column.is-two-thirds {
         width: 100%;
     }
+
 }
