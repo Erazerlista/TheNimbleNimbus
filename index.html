@@ -3,7 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Nimble Nimbus</title>
+   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>The Nimble Nimbus</title>
   </head>
-  <body></body>
+  <body style="background-color: whitesmoke">
+    <nav
+      class="navbar"
+      role="navigation"
+      aria-label="main navigation"
+      style="background-color: rgb(115, 77, 255)"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./index.html">
+          <img
+            alt="weather logo"
+            src="./assets/Logo.png"
+            style="max-height: 100px"
+            class="py-2 px-2"/>
+        </a>
+        <a
+          role="button"
+          id="burger"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <div class="search-bar">
+        <div class="notification is-primary hero-body">
+          <label for="search">Search for a City:</label>
+          <input
+            class="input"
+            type="text"
+            placeholder="Search for a City"
+            id="ingr-search"
+          />
+          <button
+            type="submit"
+            class="button is-info is-rounded center-content"
+            id="search-button"
+            style="background-color: rgb(61, 176, 230)"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+      <h1 class="container has-text-centered" id="repo-search-term"></h1>
+      <div id="repo-container" class="has-text-centered"></div>
+    </main>
+     <script src ="/assets/script.js" </script>
+  </body>
+    <footer class="footer footer-position">
+      <div class="content">
+        <p><strong>The Nimble Nimbus</strong> by Mackenzie Evangelista.</p>
+      </div>
+    </footer>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+
+
