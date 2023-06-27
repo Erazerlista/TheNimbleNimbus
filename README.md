@@ -1,12 +1,19 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-## Deploy
+## Deploy and Repo
+
+https://github.com/Erazerlista/TheNimbleNimbus
+https://erazerlista.github.io/TheNimbleNimbus/
 
 ## Screenshot
+
+<img src= "assets\screenshot.png”>
 
 ## References
 
 student Project One
+MDN
+Bulma
 
 ## Your Task
 
