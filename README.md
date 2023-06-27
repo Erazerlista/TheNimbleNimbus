@@ -7,7 +7,7 @@ https://erazerlista.github.io/TheNimbleNimbus/
 
 ## Screenshot
 
-<img src= "assets\screenshot.png”>
+<img src="/assets/screenshot.png" alt="picture of deployment">
 
 ## References
 
