@@ -14,6 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Get the city buttons
+const cityButtons = document.querySelectorAll('.city-option');
+
+//Event listeners for each city button
+cityButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const city = button.textContent;
+    getWeatherData(city);
+  });
+});
+
 function getWeatherData(city) {
   const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
 
