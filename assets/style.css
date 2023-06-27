@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-background: linear-gradient(to bottom right, rgb(229, 229, 255), rgb(29, 20, 21));
+    background: white;
 }
 
 .navbar-item img {
@@ -17,18 +17,20 @@ background: linear-gradient(to bottom right, rgb(229, 229, 255), rgb(29, 20, 21)
 }
 
 .notification {
-    background-color: rgb(44, 39, 48);
+    background-color: rgb(18, 11, 24);
     color: #fff;
 }
 
 .search-bar {
     margin-bottom: 2rem;
 }
-#search-button{
+
+#search-button {
     background-color: rgb(57, 44, 61);
     color: #fff;
     font-size: 14px;
 }
+
 .input {
     width: 100%;
     padding: 10px;
@@ -45,11 +47,21 @@ background: linear-gradient(to bottom right, rgb(229, 229, 255), rgb(29, 20, 21)
 .forecast-item {
     margin: 1rem;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #f2f2f2;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     min-width: 200px;
+}
+
+.forecast-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.forecast-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {
